@@ -1,0 +1,31 @@
+push
+move
+250 25 0
+torus
+0 0 0 25 250
+push
+rotate
+x 90
+sphere
+0 0 0 25
+sphere
+0 0 0 50
+sphere
+0 0 0 75
+sphere
+0 0 0 100
+sphere
+0 0 0 125
+sphere
+0 0 0 150
+sphere
+0 0 0 175
+sphere
+0 0 0 200
+sphere
+0 0 0 225
+sphere
+0 0 0 250
+display
+save
+spinningdisc.png

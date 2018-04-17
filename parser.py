@@ -59,7 +59,7 @@ def parse_file( fname, edges, polygons, transform, screen, color ):
     lines = f.readlines()
 
     step = 100
-    step_3d = 20
+    step_3d = 10
 
     stack = []
     t = new_matrix()
@@ -176,9 +176,9 @@ def parse_file( fname, edges, polygons, transform, screen, color ):
             matrix_mult( transform, polygons )
 
         elif line == 'display' or line == 'save':
-            clear_screen(screen)
-            draw_lines(edges, screen, color)
-            draw_polygons(polygons, screen, color)
+            #clear_screen(screen)
+            #draw_lines(edges, screen, color)
+            #draw_polygons(polygons, screen, color)
 
             if line == 'display':
                 display(screen)
